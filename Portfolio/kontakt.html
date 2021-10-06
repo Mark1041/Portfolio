@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt mig</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="baggrund">
+    <img src="/ekskursion014.jpg" alt="baggrund" style="height: 100vh; width: 0;">
+</div>
+    <section class="overskrift">
+        <nav>
+            <a href="index.html"> Mark B. S. </a>
+            <div class="navigation">
+                <ul>
+                    <li><a href="#">Semestre</a></li>
+                    <li><a href="om_mig.html">Om mig</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+<div>
+
+    <div class="kontakt">
+    <h2>Kontakt mig:</h2>
+<br> <br>
+    <form method="post" action="contact-form-process.php">
+        
+        <div>
+            <label for="Name">Navn:</label>
+            <div>
+                <input type="text" name="Name" required>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="Email">E-mail adresse:</label>
+            <div>
+                <input type="email" name="Email" required>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="Message">Beksed:</label>
+            <div>
+                <textarea name="Message" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Send besked</button>
+        </div>
+    </form>
+    </div>
+</div>
+</body>
+</html>
